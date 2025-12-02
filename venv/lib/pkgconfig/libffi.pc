@@ -1,0 +1,11 @@
+prefix=/Users/subitham/Documents/Studies/Job_Study/Agentic AI/Crewai/crewaiproject/crewaiflows/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/subitham/Documents/Studies/Job_Study/Agentic AI/Crewai/crewaiproject/crewaiflows/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
